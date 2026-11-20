@@ -173,9 +173,3 @@ TaskFlow/
 - En la demo académica el frontend guarda temporalmente el token en `sessionStorage`. Para producción conviene estudiar cookies HttpOnly, HTTPS y una estrategia de renovación de sesiones.
 - El repositorio debe excluir `.env`, carpetas `node_modules`, datos personales, archivos `.log` y tokens JWT.
 - La interfaz funciona localmente; **el despliegue en hosting no está incluido** y no es requisito explícito entre los entregables descritos en la guía.
-
-## Entrega de la práctica
-
-La guía solicita **un PDF con enlace al video demostrativo** (grabado desde computador, máximo 5 minutos, publicado en Drive con acceso de lectura) y **enlace al repositorio GitHub** con el código y el README. Verifica ambos enlaces en una ventana privada. Las capturas de pantalla ayudan a documentar el informe estudiantil; consulta `docs/GUIA_DE_CAPTURAS_Y_ENTREGA.md`.
-
-**Estado del proyecto:** código fuente preparado, pruebas unitarias de validación ejecutadas. La integración real con MongoDB y la compilación de Vite requieren ejecutar `npm install` y levantar ambos servicios en una computadora con conexión a Internet. No presentar como probado end-to-end antes de realizar esas comprobaciones.
